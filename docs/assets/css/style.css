@@ -2099,6 +2099,7 @@ div.featherlight-iframe .featherlight-content {
     height: auto;
     min-width: 100%;
     min-height: 100%;
+    object-fit: cover;
 
     /* width: 100%;
     height: 100%; */
@@ -2115,7 +2116,22 @@ div.featherlight-iframe .featherlight-content {
         height: 100%;
         
     }
+ 
 }  
+@media (max-width:1200px) {
+    #videoBG {
+        width: 1300px;
+        height: 900px;
+
+        object-fit: cover;
+        
+        
+    }
+    /* body {
+        background: url('/assets/images/cover1.png');
+        background-size: cover;
+    } */
+}
 @media (max-width: 767px) {
     #videoBG {
         width: 770px;
