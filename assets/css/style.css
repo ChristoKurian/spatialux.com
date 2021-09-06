@@ -2135,7 +2135,7 @@ div.featherlight-iframe .featherlight-content {
 @media (max-width: 767px) {
     #videoBG {
         width: 770px;
-        height: 700px;
+        height: 900px;
 
         object-fit: cover;
         
