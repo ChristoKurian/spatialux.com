@@ -2117,8 +2117,7 @@ div.featherlight-iframe .featherlight-content {
         
     }
  
-}
-@media (max-width:1670px) {
+@media (max-width:1670) {
     #videoBG {
         width: 2300px;
         height: 2388px;
@@ -2132,10 +2131,10 @@ div.featherlight-iframe .featherlight-content {
         background-size: cover;
     } */
 }
-@media (max-width:1200px) {
+@media (max-width:1400px) {
     #videoBG {
-        width: 1300px;
-        height: 900px;
+        width: 1400px;
+        height: 850px;
 
         object-fit: cover;
         
@@ -2149,7 +2148,7 @@ div.featherlight-iframe .featherlight-content {
 @media (max-width: 767px) {
     #videoBG {
         width: 770px;
-        height: 900px;
+        height: 710px;
 
         object-fit: cover;
         
@@ -2159,7 +2158,7 @@ div.featherlight-iframe .featherlight-content {
         background: url('/assets/images/cover1.png');
         background-size: cover;
     } */
-}  
+}   
 
 .overlay {
     position: absolute;
