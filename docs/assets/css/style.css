@@ -2117,7 +2117,21 @@ div.featherlight-iframe .featherlight-content {
         
     }
  
-}  
+}
+@media (max-width:1670px) {
+    #videoBG {
+        width: 2300px;
+        height: 2388px;
+
+        object-fit: cover;
+        
+        
+    }
+    /* body {
+        background: url('/assets/images/cover1.png');
+        background-size: cover;
+    } */
+}
 @media (max-width:1200px) {
     #videoBG {
         width: 1300px;
